@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 14, macOS 11.0, *)
-public class CredentialsManager: ObservableObject {
+open class CredentialsManager: ObservableObject {
 
     @Published public var allCredentials = [Credential]()
 
